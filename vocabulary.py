@@ -3,7 +3,9 @@ import random
 import requests
 import schedule
 
-path ='C:\\Users\\sanja\\OneDrive\\Vocabulary\\Vocabulary.xlsx'
+path = 'Vocabulary.xlsx'
+
+#path ='C:\\Users\\sanja\\OneDrive\\Vocabulary\\Vocabulary.xlsx'
 wb = openpyxl.load_workbook(path)
 sheet = wb.active
  
